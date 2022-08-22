@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-eslint-disable-enforce-comment-above",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "description": "Enforce adding comment above eslint-disable explaining why.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "scripts": {
+    "test": "mocha lib --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppetkov89/eslint-plugin-eslint-disable-enforce-comment-above.git"
+  },
+  "author": "ppetkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppetkov89/eslint-plugin-eslint-disable-enforce-comment-above/issues"
+  },
+  "homepage": "https://github.com/ppetkov89/eslint-plugin-eslint-disable-enforce-comment-above#readme",
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  }
+}
